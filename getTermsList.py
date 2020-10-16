@@ -1,8 +1,3 @@
-"""
-Created on 4/20/20
-
-@author: Zack Wisti
-"""
 import utils
 import re
 files = ["data/mobafire_CompletedPagesList.txt"]

@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on 4/18/20
+# Gets a page list from the League of Legends Mobafire site
+# This uses the mobafire sitemap to get all pages
+# Then, it removes duplicate urls and unnecessary pages (such as pages about Teamfight Tactics)
+# Finally, it formats the pages to be used during extraction
 
-@author: Zack Wisti
-"""
 import requests
 import time
 from bs4 import BeautifulSoup, SoupStrainer

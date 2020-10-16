@@ -1,22 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 30 12:12:39 2019
+# Gets a page list from the League of Legends Fandom wiki
+# This uses the wiki function, "Special:AllPages" to get a list of every page in the wiki
+# Finally, it removes duplicate urls and formats the pages to be used during extraction
 
-@author: Veronica Chu
-"""
 import requests
 import time
 from bs4 import BeautifulSoup, SoupStrainer
 import utils
+import re
 
-#%%
 game = 'League'
 url = 'https://leagueoflegends.fandom.com/wiki/Special:AllPages'
 baseurl = 'https://leagueoflegends.fandom.com'
-
-#game = 'Overwatch'
-#url = 'https://overwatch.fandom.com/wiki/Special:AllPages'
-#baseurl = 'https://overwatch.fandom.com'
 
 #%% Table of sections of all page list
 # Get links to sections of all pages list to comb through for page links
@@ -79,6 +73,10 @@ parentPages = list(set(parentPages))
 # remove parent pages from page list and sort alphabetically
 cleanpageList = list(set(cleanpageList) - set(parentPages))
 cleanpageList.sort()
+
+cleanpageList = [b for b in cleanpageList if "Teamfight_Tactics" not in b]
+cleanpageList = [b for b in cleanpageList if "Wild_Rift" not in b]
+cleanpageList = [b for b in cleanpageList if re.match("[vV][\d*\.]+",b)==None]
 
 # save list
 #utils.save_pickleObject(cleanpageList, str(game + 'PageList'))

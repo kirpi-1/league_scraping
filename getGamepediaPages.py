@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on
+# Gets a page list from the League of Legends Gamepedia wiki
+# Pages are selected from the "Portals" category, a type of page for game-specific information
+# Gamepedia is mostly an E-Sports oriented website, so using this portal is necessary for excluding e-sports information
+# It removes certain types of pages (such as template pages and those related to patch notes) and duplicate urls,
+# then formats the pages to be used during extraction
 
-@author: Zack Wisti
-"""
 import requests
 import time
 from bs4 import BeautifulSoup, SoupStrainer
@@ -29,6 +29,7 @@ portals = ['/New_To_League/Welcome',
 
 baseurl = "https://lol.gamepedia.com"
 pageList = list()
+# for each portal, scan for links in the main body of the page
 for p in portals:
 	print(baseurl+p)
 	resp = requests.get(baseurl+p)
@@ -36,13 +37,14 @@ for p in portals:
 	soup = BeautifulSoup(resp.content,'lxml',parse_only=strainer)
 	l = list()
 	soup.find('div', id="top-schedule").decompose()
+	# find all "a" tags, then grab only the ones that have a link (i.e. 'href')
 	for t in soup.find_all("a"):
 		if 'href' in t.attrs and "http" not in t['href'] and t['href'][0] != "#" and "action=edit" not in t['href']:
 			link = t['href']
 			if link[0]=='/':
 				link = link[1:]
 			l.append(link)
-
+	# add to the list of links
 	for a in l:
 		pageList.append(a)
 	time.sleep(1)
@@ -55,54 +57,4 @@ for r in remove:
 
 utils.write_list(pageList, "data/gamepedia.txt")
 
-
-'''
-navStrainer = SoupStrainer(class_="mw-allpages-nav")
-bodyStrainer = SoupStrainer(class_="mw-allpages-body")
-
-page = "/Special:AllPages"
-
-if os.path.exists(pageListFilename):
-	with open(pageListFilename, 'rb') as f:
-		f.seek(-2, os.SEEK_END)
-		while f.read(1) != b'\n':
-			f.seek(-2, os.SEEK_CUR)
-		last_line = f.readline().decode()
-		page = "/index.php?title=Special:AllPages&from="+last_line[1:].strip()
-		print("starting at: ", baseurl+page)
-		time.sleep(5)
-
-while not page=="":
-	#clear_output(wait = True)
-	print("At page: {}".format(baseurl + page))
-	req = requests.get(baseurl+page)
-	nav  = BeautifulSoup(req.content, "lxml", parse_only=navStrainer)
-	body = BeautifulSoup(req.content, "lxml", parse_only=bodyStrainer)
-
-	# find the "next page" link and add it to the list
-
-
-	pageList = list()
-	for tag in body.find_all("a"):
-		t = tag['href']
-		if re.match("/",t):
-			t = re.sub("/","",t,count=1)
-		pageList.append(t)
-
-	utils.append_to_file(pageList,pageListFilename)
-	time.sleep(1)
-	# get the "next page" link and request it
-	# but only take the first one (there are at least 2 on the page)
-	page = ""
-	for tag in nav.find_all("a"):
-		if "Next page" in tag.string:
-			page = tag['href']
-			curPageTitle = tag.string.replace("Next page","")
-			break
-
-
-
-
-
-'''
 print("finished")
