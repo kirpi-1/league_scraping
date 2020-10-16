@@ -16,6 +16,7 @@ Midnight Ahri
 Original Ahri
 Popstar Ahri
 K/DA Ahri Prestige Edition
+Spirit Blossom Ahri
 Star Guardian Ahri
 All-star Akali
 Blood Moon Akali
@@ -99,6 +100,7 @@ Gravelord Azir
 Original Azir
 SKT T1 Azir
 Warring Kingdoms Azir
+Astronaut Bard
 Bard Bard
 Elderwood Bard
 Original Bard
@@ -124,9 +126,9 @@ Spirit Fire Brand
 Vandal Brand
 Zombie Brand
 Braum Lionheart
+Crime City Braum
 Dragonslayer Braum
 El Tigre Braum
-Mafia Braum
 Original Braum
 Santa Braum
 Sugar Rush Braum
@@ -152,6 +154,7 @@ Jade Fang Cassiopeia
 Mythic Cassiopeia
 Original Cassiopeia
 Siren Cassiopeia
+Spirit Blossom Cassiopeia
 Battlecast Prime Cho'Gath
 Dark Star Cho'Gath
 Gentleman Cho'Gath
@@ -238,6 +241,8 @@ Frosted Ezreal
 Nottingham Ezreal
 Original Ezreal
 Pajama Guardian Ezreal
+PsyOps Ezreal Prestige Edition
+PsyOps Ezreal
 Pulsefire Ezreal
 SSG Ezreal
 Star Guardian Ezreal
@@ -305,6 +310,7 @@ Rugged Garen
 Sanguine Garen
 Steel Legion Garen
 Warring Kingdoms Garen
+Astronaut Gnar
 Dino Gnar
 El León Gnar
 Gentleman Gnar
@@ -324,10 +330,10 @@ Scuba Gragas
 Superfan Gragas
 Vandal Gragas
 Battle Professor Graves
+Crime City Graves
 Cutthroat Graves
 Hired Gun Graves
 Jailbreak Graves
-Mafia Graves
 Original Graves
 Pool Party Graves
 Praetorian Graves
@@ -349,6 +355,7 @@ Dragon Trainer Heimerdinger
 Hazmat Heimerdinger
 Original Heimerdinger
 Piltover Customs Heimerdinger
+Pool Party Heimerdinger
 Snowmerdinger
 Original Illaoi
 Resistance Illaoi
@@ -356,6 +363,7 @@ Void Bringer Illaoi
 Aviator Irelia
 Divine Sword Irelia
 Frostblade Irelia
+High Noon Irelia
 Infiltrator Irelia
 Nightblade Irelia
 Order of the Lotus Irelia
@@ -384,6 +392,7 @@ Dragonslayer Jarvan IV
 Fnatic Jarvan IV
 Hextech Jarvan IV
 Original Jarvan IV
+Pool Party Jarvan IV
 SSG Jarvan IV
 Victorious Jarvan IV
 Warring Kingdoms Jarvan IV
@@ -412,9 +421,9 @@ Original Jhin
 PROJECT: Jhin
 SKT T1 Jhin
 Ambitious Elf Jinx
+Crime City Jinx
 Firecracker Jinx
 Heartseeker Jinx
-Mafia Jinx
 Odyssey Jinx
 Original Jinx
 PROJECT: Jinx
@@ -442,6 +451,7 @@ Warden Karma
 Winter Wonder Karma
 Fnatic Karthus
 Grim Reaper Karthus
+Infernal Karthus
 Karthus Lightsbane
 Original Karthus
 Pentakill Karthus
@@ -484,6 +494,7 @@ Soulhunter Kayn
 Arctic Ops Kennen
 Blood Moon Kennen
 Deadly Kennen
+Infernal Kennen
 Karate Kennen
 Kennen M.D.
 Original Kennen
@@ -497,10 +508,12 @@ Mecha Kha'Zix
 Original Kha'Zix
 Original Kindred
 Shadowfire Kindred
+Spirit Blossom Kindred
 Super Galaxy Kindred
 Count Kledula
 Original Kled
 Sir Kled
+Arcanist Kog'Maw
 Battlecast Kog'Maw
 Caterpillar Kog'Maw
 Deep Sea Kog'Maw
@@ -544,6 +557,8 @@ PROJECT: Leona
 Pool Party Leona
 Solar Eclipse Leona
 Valkyrie Leona
+Original Lillia
+Spirit Blossom Lillia
 Blade Queen Lissandra
 Bloodstone Lissandra
 Coven Lissandra
@@ -620,6 +635,7 @@ Headhunter Master Yi
 Ionia Master Yi
 Original Master Yi
 PROJECT: Yi
+PsyOps Master Yi
 Samurai Yi
 Snow Man Yi
 Arcade Miss Fortune
@@ -627,8 +643,8 @@ Bewitching Miss Fortune
 Candy Cane Miss Fortune
 Captain Fortune
 Cowgirl Miss Fortune
+Crime City Miss Fortune
 Gun Goddess Miss Fortune
-Mafia Miss Fortune
 Original Miss Fortune
 Pajama Guardian Miss Fortune
 Pool Party Miss Fortune
@@ -674,6 +690,7 @@ Riot K-9 Nasus
 Worldbreaker Nasus
 Abyssal Nautilus
 AstroNautilus
+Conqueror Nautilus
 Original Nautilus
 Subterranean Nautilus
 Warden Nautilus
@@ -698,6 +715,7 @@ Elderwood Nocturne
 Eternum Nocturne
 Frozen Terror Nocturne
 Haunting Nocturne
+Hextech Nocturne
 Original Nocturne
 Ravager Nocturne
 Void Nocturne
@@ -724,6 +742,7 @@ Dark Star Orianna
 Gothic Orianna
 Heartseeker Orianna
 Original Orianna
+Pool Party Orianna
 Sewn Chaos Orianna
 TPA Orianna
 Victorious Orianna
@@ -740,6 +759,7 @@ Perseus Pantheon
 Pulsefire Pantheon
 Ruthless Pantheon
 Zombie Slayer Pantheon
+Astronaut Poppy
 Battle Regalia Poppy
 Blacksmith Poppy
 Hextech Poppy
@@ -813,6 +833,7 @@ Original Riven
 Valiant Sword Riven Prestige Edition
 Pulsefire Riven
 Redeemed Riven
+Spirit Blossom Riven
 Valiant Sword Riven
 Badlands Baron Rumble
 Bilgerat Rumble
@@ -842,11 +863,13 @@ Poro Rider Sejuani
 Sabretusk Sejuani
 Sejuani Dawnchaser
 Traditional Sejuani
+High Noon Senna
 Original Senna
 True Damage Senna Prestige Edition
 True Damage Senna
 Mecha Kingdoms Sett
 Original Sett
+Arcanist Shaco
 Asylum Shaco
 Dark Star Shaco
 Mad Hatter Shaco
@@ -860,6 +883,7 @@ Blood Moon Shen
 Frozen Shen
 Infernal Shen
 Original Shen
+PsyOps Shen
 Pulsefire Shen
 Surgeon Shen
 TPA Shen
@@ -913,6 +937,7 @@ Muse Sona
 Odyssey Sona
 Original Sona
 Pentakill Sona
+PsyOps Sona
 Silent Night Sona
 Sweetheart Sona
 Celestine Soraka
@@ -939,6 +964,7 @@ Original Sylas
 Atlantean Syndra
 Justicar Syndra
 Original Syndra
+Pool Party Syndra
 Queen of Diamonds Syndra
 SKT T1 Syndra
 Snow Day Syndra
@@ -949,6 +975,7 @@ Original Tahm Kench
 Urf Kench
 Freljord Taliyah
 Original Taliyah
+Pool Party Taliyah
 SSG Taliyah
 Blood Moon Talon
 Crimson Elite Talon
@@ -973,7 +1000,9 @@ Little Devil Teemo
 Omega Squad Teemo
 Original Teemo
 Panda Teemo
+Spirit Blossom Teemo Prestige Edition
 Recon Teemo
+Spirit Blossom Teemo
 Super Teemo
 Blood Moon Thresh
 Championship Thresh
@@ -985,6 +1014,7 @@ Original Thresh
 Pulsefire Thresh Prestige Edition
 Pulsefire Thresh
 SSW Thresh
+Spirit Blossom Thresh
 Bewitching Tristana
 Buccaneer Tristana
 Dragon Trainer Tristana
@@ -1027,7 +1057,7 @@ Red Card Twisted Fate
 Tango Twisted Fate
 The Magnificent Twisted Fate
 Underworld Twisted Fate
-Gangster Twitch
+Crime City Twitch
 Ice King Twitch
 Kingpin Twitch
 Medieval Twitch
@@ -1070,6 +1100,7 @@ PROJECT: Vayne
 Firecracker Vayne Prestige Edition
 SKT T1 Vayne
 Soulstealer Vayne
+Spirit Blossom Vayne
 Vindicator Vayne
 Bad Santa Veigar
 Baron Von Veigar
@@ -1086,6 +1117,7 @@ White Mage Veigar
 Arclight Vel'Koz
 Battlecast Vel'Koz
 Definitely Not Vel'Koz
+Infernal Vel'Koz
 Original Vel'Koz
 Debonair Vi
 Demon Vi
@@ -1094,6 +1126,7 @@ Neon Strike Vi
 Officer Vi
 Original Vi
 PROJECT: Vi
+PsyOps Vi
 Warring Kingdoms Vi
 Creator Viktor
 Death Sworn Viktor
@@ -1115,6 +1148,7 @@ El Rayo Volibear
 Northern Storm Volibear
 Original Volibear
 Runeguard Volibear
+The Thousand-Pierced Bear
 Thunder Lord Volibear
 Big Bad Warwick
 Feral Warwick
@@ -1162,7 +1196,10 @@ Nightbringer Yasuo
 Odyssey Yasuo
 Original Yasuo
 PROJECT: Yasuo
+Spirit Blossom Yasuo
 True Damage Yasuo
+Original Yone
+Spirit Blossom Yone
 Arclight Yorick
 Meowrick
 Original Yorick
@@ -1183,6 +1220,7 @@ PROJECT: Zed
 SKT T1 Zed
 Shockblade Zed
 Battle Boss Ziggs
+Hextech Ziggs
 Mad Scientist Ziggs
 Major Ziggs
 Master Arcanist Ziggs
@@ -1198,9 +1236,11 @@ Original Zilean
 Shurima Desert Zilean
 Sugar Rush Zilean
 Time Machine Zilean
+Arcanist Zoe
 Cyber Pop Zoe
 Original Zoe
 Pool Party Zoe
+Arcanist Zoe Prestige Edition
 Star Guardian Zoe
 Coven Zyra
 Dragon Sorceress Zyra

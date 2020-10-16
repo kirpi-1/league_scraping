@@ -1,15 +1,19 @@
+# Sort and split the word count file created by countWords.py
+# This creates a number of csv files that are in sorted by total word count (most frequent first), 
+# making it easier to load and view the words of most interest.
+# The number of words in each file can be set via command line (-b or --batch argument), default to 500 words
+
 import numpy as np
 import pandas as pd
 from utils import load_list, write_list, printProgressBar
 import argparse
 
+# command line argument for how to split the words
 parser = argparse.ArgumentParser()
-
 parser.add_argument('-b', '--batch', type=int, default = 500, action = 'store')
 args = parser.parse_args()
 
-
-# this is better utilized in a jupyter notebook
+# load terms and urls
 print("loading files...")
 terms = load_list("data/filteredTerms.txt")
 urls = load_list("data/urls.txt")
@@ -36,9 +40,9 @@ for idx in range(counts.shape[1]):
 	wordsums[idx] = c
 	counts[-1,idx] = c
 
+# sort the terms by count
 print("sorting...")
 order = np.argsort(wordsums)
-
 sortedTerms = list()
 sortedData = np.zeros(counts.shape)
 
@@ -46,7 +50,6 @@ for idx in range(len(order)):
 	o = order[-idx-1]
 	sortedTerms.append(terms[o])
 	sortedData[:,idx] = counts[:,o]
-	
 urls.append("Sum")
 # convert to dataframe and then output to csv
 batch_size = args.batch
@@ -58,6 +61,6 @@ while s < sortedData.shape[1]:
 		e = sortedData.shape[1]
 	df = pd.DataFrame(data = sortedData[:,s:e], columns=sortedTerms[s:e])
 	df.insert(0,'site',urls)	
-	df.to_csv("data/wordCounts_{}_to_{}.txt".format(s,e))	
+	df.to_csv("data/wordCounts_{}_to_{}.csv".format(s,e),index=False)	
 	s += batch_size
 			

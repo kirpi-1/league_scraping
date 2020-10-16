@@ -11,15 +11,17 @@ import utils
 import os
 import re
 
-badList = ['https://leagueoflegends.fandom.com/wiki/Category:LoL_patch_notes',
-            'https://leagueoflegends.fandom.com/wiki/Category:LoL_patch_notes?from=V6.20',
+badList = [
             'https://leagueoflegends.fandom.com/wiki/Category:Contracted_artists',
             'https://leagueoflegends.fandom.com/wiki/Category:Riot_Games_staff',
             'https://leagueoflegends.fandom.com/wiki/Category:Riot_Games_staff?from=Justin+%27Earp%27+Albers',
             'https://leagueoflegends.fandom.com/wiki/Category:Events',
             'https://leagueoflegends.fandom.com/wiki/Category:Tournaments',
             'https://leagueoflegends.fandom.com/wiki/Category:WR_finished_items',
-            'https://leagueoflegends.fandom.com/wiki/Category:Anniversary'
+            'https://leagueoflegends.fandom.com/wiki/Category:Anniversary',
+            'https://leagueoflegends.fandom.com/wiki/Category:Legends_of_Runeterra',
+            'https://leagueoflegends.fandom.com/wiki/Category:Wild_Rift',
+            'https://leagueoflegends.fandom.com/wiki/Category:Teamfight_Tactics'
             ]
 
 # Go through remove list
